@@ -1,2 +1,6 @@
-export const controller = "[CTRL] - MaxOrbe";
+export const controller = {
+  layer: {
+    name: "[CTRL] - MaxOrbe"
+  }
+};
 export const shape = "MaxOrbe";

@@ -1,5 +1,6 @@
-import { makeMaxOrbeShapeLayer } from "./MaxOrbe/layers/maxorbe-shapes";
-import { makeController } from "./MaxOrbe/layers/maxorbe-null";
+import { makeController } from "./MaxOrbe/layers/maxorbe-controller";
+import { makeMaxOrbeShapeLayer } from "./MaxOrbe/layers/maxorbe-design";
+
 
 export const createMaxOrbe = () => {
   const comp: CompItem | undefined =

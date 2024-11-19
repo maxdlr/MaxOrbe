@@ -1,7 +1,7 @@
 import { MaxAvLayerMatchNames } from "./ADBE-match-names/MaxAvLayerMatchNames";
 
 export const MaxLayer = {
-  layer: {} as Layer,
+  layer: {} as AVLayer,
 
   new: function (type: "ShapeLayer" | "Null", comp: CompItem, name: string) {
     switch (type) {

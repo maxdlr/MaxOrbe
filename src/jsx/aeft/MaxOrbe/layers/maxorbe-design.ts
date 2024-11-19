@@ -12,7 +12,7 @@ export const makeMaxOrbeShapeLayer = (controller: Layer, comp: CompItem) => {
     .transform("position", [0, 0])
     .transform("anchorPoint", MAXORBE_LAYER.anchorPoint)
     .build();
-  const rootGroup = MaxVectorRoot.new(maxOrbe).build();
+  const rootGroup = MaxVectorRoot.new(maxOrbe as ShapeLayer).build();
 
   makeReflectionGroup(rootGroup);
   makeDomeGroup(rootGroup, false);

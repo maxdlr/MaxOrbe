@@ -1,0 +1,16 @@
+<Effect matchname="Pseudo/YourCustomControl_v1" name="$$$/AE/Preset/YourCustomControlName=Your Custom Control Name">
+    <Slider name="$$$/AE/Preset/CustomSliderName=Custom Slider Name" default="0" valid_min="-100" valid_max="100" slider_min="-10" slider_max="10" precision="2"/>
+    <Checkbox name="$$$/AE/Preset/CustomCheckboxName=Custom Checkbox Name" checked="false"/>
+    <Color name="$$$/AE/Preset/CustomColorName=Custom Color Name" default_red="255" default_green="0" default_blue="0"/>
+    <Group name="$$$/AE/Preset/CustomGroupName=Custom Group Name">
+        <Layer name="$$$/AE/Preset/CustomLayerName=Custom Layer Name" default_self="false"/>
+        <Point name="$$$/AE/Preset/CustomPointName=Custom Point Name" default_x="0" default_y="0"/>
+    </Group>
+    <Point3D name="$$$/AE/Preset/Custom3DPoint=Custom 3D Point" default_x="0" default_y="0" default_z="0"/>
+    <Popup name="$$$/AE/Preset/CustomPopupName=Custom Popup Name" default="1" popup_string="Choose An Option|Selection A|Selection B|Selection C" CANNOT_TIME_VARY="true"/>
+    <Angle name="$$$/AE/Preset/CustomAngleName=Custom Angle Name" default="0"/>
+</Effect>
+
+<Effect matchname="Pseudo/MaxOrbe" name="$$$/AE/Preset/MaxOrbe=MaxOrbe">
+    <Slider name="$$$/AE/Preset/CustomSliderName=Size" />
+</Effect>
